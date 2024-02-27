@@ -1,0 +1,10 @@
+.shopCardsContainer {
+    width: 100%;
+    height: 95vh;
+    min-width: 750px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    justify-content: space-evenly;
+    gap: 30px;
+}

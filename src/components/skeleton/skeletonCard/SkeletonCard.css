@@ -1,0 +1,19 @@
+.skeletonCardContainer {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skeletonFirstLine {
+    margin-top: 8px;
+}
+
+.skeletonSecondLine {
+    margin-top: 5px;
+}
+
+.skeletonButton {
+    margin-top: 15px;
+}

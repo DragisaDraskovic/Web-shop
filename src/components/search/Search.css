@@ -1,0 +1,46 @@
+.inputNavBarShop {
+    width: 350px;
+    height: 50%;
+    border-radius: 30px;
+    border-style: none;
+    background-color: #80808012;
+    margin: 0 15px 0 15px;
+    display: flex;
+}
+
+.inputNavBarShop::placeholder {
+    text-align: center;
+}
+
+.shopCardsContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.emptySearchResult {
+    width: 100vh;
+    margin: 0 50% 0 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.emptyMessageContainer {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.emptySearchResultMessage {
+    margin-right: 5px;
+    font-size: 30px;
+}
+
+.backToCategoryButton {
+    border-radius: 15px;
+    border-width: 1px;
+    height: 50px;
+    background-color: wheat;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
